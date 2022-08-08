@@ -15,8 +15,13 @@
 }
 
 .header__square-pic {
-  height: 568px;
   width: 568px;
+  height: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0px;
+  background-color: #2f80ed;
+  z-index: 1;
 }
 
 .header__title {
@@ -54,22 +59,11 @@
   z-index: 2;
 }
 
-.header__square-pic {
-  width: 568px;
-  height: 568px;
-  position: absolute;
-  top: 64px;
-  right: 0px;
-  background-color: #2f80ed;
-  z-index: 1;
-}
-
 .logo_place_header {
   position: absolute;
   z-index: 3;
   top: 30px;
   left: 64px;
-  z-index: 3;
 }
 
 .two-columns {
@@ -301,6 +295,10 @@
 
 .footer__column-link {
   text-decoration: none;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .footer_column-heading {
@@ -320,11 +318,4 @@
   margin-right: 10px;
   width: 16px;
   height: 16px;
-}
-
-.footer__column-link {
-  color: white;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
 }
