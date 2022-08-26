@@ -1,0 +1,12 @@
+@keyframes forlinks {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: .5;
+  }
+}
+
+.forlinks:hover {
+  animation: forlinks 2s ease 0.5s;
+}

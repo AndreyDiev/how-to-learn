@@ -1,0 +1,9 @@
+.two-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  padding: 100px 0;
+  align-items: flex-start;
+}
